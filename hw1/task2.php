@@ -1,11 +1,11 @@
 <?php
-const TOTAL_PICTURES = 80;
-const FLOMASTER_PICTURES = 23;
-const PENSIL_PICTURES = 40;
+const PICTURES_TOTAL = 80;
+const PICTURES_FLOMASTER = 23;
+const PICTURES_PENSIL = 40;
 
-$paint_pictures = TOTAL_PICTURES - FLOMASTER_PICTURES - PENSIL_PICTURES;
+$picturesPaint = PICTURES_TOTAL - PICTURES_FLOMASTER - PICTURES_PENSIL;
 
-echo 'На школьной выставке ', TOTAL_PICTURES, ' рисунков. ', FLOMASTER_PICTURES,
-'выполнены фломастерами, ',  PENSIL_PICTURES, ' карандашами, а остальные — красками. 
+echo 'На школьной выставке ', PICTURES_TOTAL, ' рисунков. ', PICTURES_FLOMASTER,
+' выполнены фломастерами, ',  PICTURES_PENSIL, ' карандашами, а остальные — красками. 
 Сколько рисунков, выполненные красками, на школьной выставке? <br /><br />
-Ответ: красками выполнено ', $paint_pictures, ' рисунков';
+Ответ: красками выполнено ', $picturesPaint, ' рисунков';
